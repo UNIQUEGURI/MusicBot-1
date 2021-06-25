@@ -1,0 +1,11 @@
+---
+application:
+  name: "musicbot-1"
+  project: "Hhh"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-musicbot-1"
+  routes:
+  - application_name: "musicbot-1"
+    paths:
+    - "/*"
